@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include <vector>
+#include <sstream>
+#include <vector>
+#include<numeric>
+#include<ctime>
+#include<thread>
+#include<deque>
+#include<list>
+#include<forward_list>
+#include<queue>
+#include<set>
+#include<stack>
+#include<map>
+#include<regex>
+#include<algorithm>
+
+
+int main(){
+
+
+}
+
