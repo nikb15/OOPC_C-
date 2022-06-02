@@ -15,7 +15,10 @@ public:
         this->health= 99;
         this->level='N';
     }
-
+    Hero(int health)
+    {
+        this->health = health;
+    }
 
 
    void show()
@@ -42,7 +45,8 @@ int main()
 
     //Using constructor function
     Hero ramesh ;
-
+    Hero rami(10);
+    Hero copy(rami);
     // //cout<<sizeof(h1); // 4 
     // h1.setter(10);
     // h1.show();
@@ -53,5 +57,8 @@ int main()
     //seeing val 
     ramesh.show();
 
+    rami.show();
+
+    copy.show();
     return 0;
 }
